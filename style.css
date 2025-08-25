@@ -8,10 +8,6 @@
 
 body {
   background: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /****************************** Navigation Style Section *********************************/
@@ -80,6 +76,10 @@ body {
   padding-top: 150px;
 }
 
+.left-content {
+  width: 50%;
+}
+
 .left-content h3 {
   font-size: 32px;
   font-weight: 100;
@@ -90,6 +90,9 @@ body {
 .left-content h1 {
   font-size: 64px;
   margin: 32px 0;
+  background-image: linear-gradient(to right, #00181B, #1895a5);
+  background-clip: text;
+  color: transparent;
 }
 
 .left-content p {
@@ -118,11 +121,12 @@ body {
 
 .hero-image {
   background: linear-gradient(to right, #25ced1, #00181b);
-  width: 85%;
+  width: 600px;
+  height: 600px;
   border-radius: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 /********************************************* Solution Style Section **********************************/
@@ -205,12 +209,24 @@ body {
   background-color: #f4f4f4;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 100px;
-  gap: 100px;
+  gap: 150px;
+}
+
+.doctor-image{
+  background: linear-gradient(to right, #00181b, #1895a5);
+  width: 517px;
+  height: 539px;
+  border-radius: 20px 100px;
 }
 
 .doctor-image img {
   border-radius: 20px 100px;
+}
+
+.doctor-heading{
+  width: 50%;
 }
 
 .doctor-heading h4 {
@@ -245,7 +261,7 @@ body {
 
 .metrics-card {
   background-color: #fff;
-  width: 33%;
+  width: 200px;
   text-align: center;
   padding: 24px;
   border-radius: 12px;
@@ -346,27 +362,26 @@ body {
 /* **********************************Testimonial Style Section ***************************/
 .testimonial-container {
   background-color: #f4f4f4;
-  display: flex;
-  flex-direction: column;
   text-align: center;
   padding: 100px 0;
-  width: 100vw;
 }
 
 .testimonial-card-container {
   display: flex;
   justify-content: center;
   gap: 24px;
-  /* margin-left: 100px; */
+  overflow: hidden;
+  padding-left: 500px;
 }
 
 .testimonial-card {
   background-color: #fff;
   display: flex;
   flex-direction: row;
+  flex-shrink: 0;
   text-align: left;
   border-radius: 12px;
-  width: 624px;
+  width: 580px;
   padding: 24px;
   gap: 24px;
 }
@@ -413,6 +428,14 @@ body {
 .indicator .indi-1 {
   background-color: #ff8a5b;
   width: 50px;
+  height: 14px;
+  border-radius: 12px;
+}
+
+.indicator .indi-2 {
+  /* background-color: #ff8a5b; */
+  border: 2px solid #ff8a5b;
+  width: 25px;
   height: 14px;
   border-radius: 12px;
 }
