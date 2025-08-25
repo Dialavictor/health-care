@@ -266,6 +266,7 @@ body {
   padding-top: 10px;
 }
 
+/************************ Our doctors section ***************/
 .our-doctor-container {
   display: flex;
   flex-direction: column;
@@ -294,8 +295,8 @@ body {
   transition: 0.2s;
 }
 
-.our-doctors-card:hover{
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.our-doctors-card:hover {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .our-doctors-card img {
@@ -304,48 +305,114 @@ body {
   border-radius: 100%;
 }
 
-.our-doctors-card h4{
-    color: #00181b;
-    font-size: 24px;
-    font-weight: 600;
+.our-doctors-card h4 {
+  color: #00181b;
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.our-doctors-card p{
-    color: #25ced1;
-    font-size: 18px;
-    font-weight: 100;
+.our-doctors-card p {
+  color: #25ced1;
+  font-size: 18px;
+  font-weight: 100;
 }
 
-.star-rating{
-    color: #ff8a5b;
-    font-size: 14px;
+.star-rating {
+  color: #ff8a5b;
+  font-size: 14px;
 }
 
-.our-doctors-card a{
-    color: #fff;
-    text-decoration: none;
-    background-color: #25ced1;
-    border-radius: 8px;
-    text-align: center;
-    padding: 12px 18px;
-    font-size: 16px;
-    font-weight: 200;
-    transition: 0.2s;
-    cursor: pointer;
+.our-doctors-card a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #25ced1;
+  border-radius: 8px;
+  text-align: center;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 200;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
-.our-doctors-card a:hover{
-    background-color: #495a5c;
+.our-doctors-card a:hover {
+  background-color: #495a5c;
 }
 
 .btn-patients {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 
-.testimonial-container{
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 100px;
+/* **********************************Testimonial Style Section ***************************/
+.testimonial-container {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 0;
+  width: 100vw;
+}
+
+.testimonial-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  /* margin-left: 100px; */
+}
+
+.testimonial-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  border-radius: 12px;
+  width: 624px;
+  padding: 24px;
+  gap: 24px;
+}
+
+.testimonial-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.textimonial-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.textimonial-text-container h4 {
+  color: #495a5c;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.textimonial-text-container .subhead {
+  color: #25ced1;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.testimonial-card-container .para1 {
+  color: #495a5c;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 28px;
+}
+/* ****************************** Indicators *****************************/
+.indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 50px auto;
+}
+
+.indicator .indi-1 {
+  background-color: #ff8a5b;
+  width: 50px;
+  height: 14px;
+  border-radius: 12px;
 }
