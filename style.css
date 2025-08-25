@@ -1,0 +1,351 @@
+/****************************** Basic Reset *********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/****************************** Navigation Style Section *********************************/
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 100px;
+  background-color: #fff;
+  box-shadow: 0 0 12px #ebebeb;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  width: 130px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #00181b;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: #25ced1;
+}
+
+.active-link a {
+  color: #25ced1;
+  font-weight: 600;
+}
+
+.btn-1 {
+  color: #ff8a5b;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid #ff8a5b;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: 0.2s;
+}
+
+.btn-1:hover {
+  background-color: #ff8a5b;
+  color: #fff;
+}
+
+/****************************** Hero Style Section *********************************/
+.hero-section-container {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  gap: 64px;
+  padding-top: 150px;
+}
+
+.left-content h3 {
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: #00181b;
+}
+
+.left-content h1 {
+  font-size: 64px;
+  margin: 32px 0;
+}
+
+.left-content p {
+  color: #495a5c;
+  font-size: 18px;
+  line-height: 32px;
+  padding-right: 50px;
+}
+
+.btn-contact {
+  margin-top: 32px;
+  padding: 16px 54px;
+  background-color: #ff8a5b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  background-color: #00181b;
+}
+
+.hero-image {
+  background: linear-gradient(to right, #25ced1, #00181b);
+  width: 85%;
+  border-radius: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+/********************************************* Solution Style Section **********************************/
+.card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 88%;
+  padding: 70px;
+  margin: 100px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-heading {
+  margin-bottom: 64px;
+}
+.card-heading h4 {
+  color: #25ced1;
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 18px;
+}
+
+.card-heading h2 {
+  color: #00181b;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.cards {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  border-radius: 10px;
+  border-bottom: 4px solid #25ced1;
+  gap: 28px;
+  padding: 32px 24px;
+  transition: 0.2s;
+}
+
+.card-icons {
+  background-color: #f4f4f4;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  align-content: center;
+}
+
+.card-icons i {
+  color: #25ced1;
+  font-size: 50px;
+}
+
+.cards h5 {
+  color: #495a5c;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards p {
+  color: #495a5c;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/**************************************** Doctors Style Section **********************************/
+.doctor-container {
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  gap: 100px;
+}
+
+.doctor-image img {
+  border-radius: 20px 100px;
+}
+
+.doctor-heading h4 {
+  color: #25ced1;
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 24px;
+}
+
+.doctor-heading h2 {
+  color: #00181b;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.doctor-heading p {
+  color: #495a5c;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.metrics-card {
+  background-color: #fff;
+  width: 33%;
+  text-align: center;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.metrics-card h5 {
+  color: #25ced1;
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 24px;
+}
+
+.metrics-card p {
+  color: #00181b;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.our-doctor-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.our-doctors-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.our-doctors-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-bottom: 32px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 16px;
+  transition: 0.2s;
+}
+
+.our-doctors-card:hover{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.our-doctors-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.our-doctors-card h4{
+    color: #00181b;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.our-doctors-card p{
+    color: #25ced1;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.star-rating{
+    color: #ff8a5b;
+    font-size: 14px;
+}
+
+.our-doctors-card a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #25ced1;
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 200;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.our-doctors-card a:hover{
+    background-color: #495a5c;
+}
+
+.btn-patients {
+    margin-top: 18px;
+}
+
+.testimonial-container{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
