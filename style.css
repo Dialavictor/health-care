@@ -19,6 +19,7 @@ body {
   background-color: #fff;
   box-shadow: 0 0 12px #ebebeb;
   position: fixed;
+  top: 0;
   width: 100%;
 }
 
