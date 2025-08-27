@@ -460,7 +460,7 @@ body {
   border-radius: 20px;
 }
 
-.overlay{
+.overlay {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.8);
   width: 100%;
@@ -494,11 +494,12 @@ body {
   flex-direction: column;
   /* justify-content: center; */
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .blog-card-container {
   display: flex;
-  padding: 0 100px 100px;
+  padding: 0 100px 50px;
   gap: 24px;
 }
 
@@ -553,4 +554,68 @@ body {
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/********************** Footer Style Section ********************/
+.footer-container{
+  background-color: #00181b;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+}
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 130px;
+}
+
+.footer-links {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #25ced1;
+}
+
+.divider{
+  background-color: #495a5c;
+  height: 1px;
+  margin: 32px 0;
+}
+.footer-social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-social-icons a{
+  color: #25ced1;
+  text-decoration: none;
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.footer-social-icons a:hover{
+  color: #495a5c;
+}
+
+.copyright{
+  color: #1895a5;
+  font-size: 24px;
+  font-weight: 200;
 }
