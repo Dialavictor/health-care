@@ -1,0 +1,333 @@
+/****************************** Basic Reset *********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+/****************************** Navigation Style Section *********************************/
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 100px;
+  background-color: #fff;
+  box-shadow: 0 0 12px #ebebeb;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo {
+  width: 130px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #00181b;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: #25ced1;
+}
+
+.active-link a {
+  color: #25ced1;
+  font-weight: 600;
+}
+
+.btn-1 {
+  color: #ff8a5b;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid #ff8a5b;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: 0.2s;
+}
+
+.btn-1:hover {
+  background-color: #ff8a5b;
+  color: #fff;
+}
+
+.btn-contact {
+  margin-top: 32px;
+  padding: 16px 54px;
+  background-color: #ff8a5b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  background-color: #00181b;
+}
+
+.card-heading {
+  margin-bottom: 64px;
+}
+
+.card-heading h4 {
+  color: #25ced1;
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 18px;
+}
+
+.card-heading h2 {
+  color: #00181b;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/************************ Our doctors section ***************/
+.our-doctor-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 180px 0 100px;
+  background-color: #f4f4f4;
+}
+
+.our-doctors-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.our-doctors-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-bottom: 32px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 16px;
+  transition: 0.2s;
+}
+
+.our-doctors-card:hover {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.our-doctors-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.our-doctors-card h4 {
+  color: #00181b;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.our-doctors-card p {
+  color: #25ced1;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.star-rating {
+  color: #ff8a5b;
+  font-size: 14px;
+}
+
+.our-doctors-card a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #25ced1;
+  border-radius: 8px;
+  text-align: center;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 200;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.our-doctors-card a:hover {
+  background-color: #495a5c;
+}
+
+.btn-patients {
+  margin-top: 18px;
+}
+
+/********************** Experience Style Section ***********************/
+
+.experience-container {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 144px 100px 100px;
+  gap: 100px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.left-content h4 {
+  color: #25ced1;
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 24px;
+}
+
+.left-content h2 {
+  color: #00181b;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.left-content p {
+  color: #495a5c;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.experience-image {
+  background: linear-gradient(to right, #00181b, #1895a5);
+  border-radius: 20px 100px;
+  margin-top: 50px;
+  width: 556px;
+
+}
+
+.right-experience-image {
+  background: linear-gradient(to right, #00181b, #1895a5);
+  border-radius: 20px 100px;
+  margin-top: 50px;
+  width: 556px;
+  margin-right: 64px;
+}
+
+.experience-image img {
+  width: 556px;
+  border-radius: 20px 100px;
+  position: relative;
+  left: 32px;
+  bottom: 60px;
+}
+
+.right-experience-image img {
+  width: 556px;
+  border-radius: 20px 100px;
+  position: relative;
+  left: 32px;
+  bottom: 60px;
+}
+
+/********************** Footer Style Section ********************/
+.footer-container {
+  background-color: #00181b;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+}
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 130px;
+}
+
+.footer-links {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #25ced1;
+}
+
+.divider {
+  background-color: #495a5c;
+  height: 1px;
+  margin: 32px 0;
+}
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-social-icons a {
+  color: #25ced1;
+  text-decoration: none;
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.footer-social-icons a:hover {
+  color: #495a5c;
+}
+
+.copyright {
+  color: #1895a5;
+  font-size: 24px;
+  font-weight: 200;
+}
