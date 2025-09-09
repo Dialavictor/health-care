@@ -558,6 +558,31 @@ body {
   text-transform: uppercase;
 }
 
+/*********************** Contact style section ********************/
+.contact-us-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.contact-us-heading h4 {
+  color: #25ced1;
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 24px;
+}
+
+.contact-us-heading h2 {
+  color: #00181b;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
 /********************** Footer Style Section ********************/
 .footer-container{
   background-color: #00181b;
