@@ -564,7 +564,7 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding-top: 170px;
+  padding-top: 180px;
 }
 
 .contact-us-heading h4 {
@@ -587,7 +587,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 100px;
-  gap: 64px;
+  gap: 100px;
 }
 
 .form {
@@ -606,10 +606,11 @@ body {
   border: none;
   background-color: #fff;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .form textarea{
-  height: 150px;
+  height: 220px;
   padding: 16px 18px;
   font-size: 16px;
   font-weight: 100;
@@ -618,13 +619,79 @@ body {
   background-color: #fff;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
   color: #8f9495;
+  transition: 0.2s;
 }
 
+.form input:hover, textarea:hover{
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: left;
+  /* text-align: center; */
+}
+
+.submit {
+  background-color: #ff8a5b;
+  color: #fff;
+  padding: 14px 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.submit:hover {
+  background-color: #00181b;
+}
+
+
+/**************** Address Style Section *********************/
 .address-container {
+  display: flex;
+  flex-direction: column;
   width: 50%;
   background-color: #495a5c;
   border-radius: 10px;
-  padding: 50px 24px;
+  padding: 50px 32px;
+  gap: 24px;
+}
+
+.office-details{
+  background-color: #495a5c;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 24px;
+  text-align: left;
+  gap: 24px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.office-details i{
+  font-size: 80px;
+  color: #25ced1;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.main h2{
+  color: #25ced1;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 /********************** Footer Style Section ********************/
