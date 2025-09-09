@@ -564,7 +564,7 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding-top: 150px;
+  padding-top: 170px;
 }
 
 .contact-us-heading h4 {
@@ -580,7 +580,51 @@ body {
   font-weight: 700;
   line-height: 50px;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  gap: 64px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+  gap: 24px;
+}
+
+.form input {
+  padding: 18px 16px;
+  font-size: 16px;
+  font-weight: 100;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form textarea{
+  height: 150px;
+  padding: 16px 18px;
+  font-size: 16px;
+  font-weight: 100;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  color: #8f9495;
+}
+
+.address-container {
+  width: 50%;
+  background-color: #495a5c;
+  border-radius: 10px;
+  padding: 50px 24px;
 }
 
 /********************** Footer Style Section ********************/
